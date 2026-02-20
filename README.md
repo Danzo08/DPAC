@@ -1,4 +1,4 @@
-# Platforma Laborator Cybersecurity (Studenti)
+# Platforma Laborator Cybersecurity
 
 ## Descriere scurta
 Acest proiect este suportul practic pentru materia de **Cybersecurity**, cu focus pe:
@@ -85,7 +85,7 @@ python solutii/lab5_deep_learning.py --data_dir "solutii/lab3_out_train" --outdi
 python solutii/lab6_evaluation.py --data_dir "solutii/lab3_out_train" --ml_models_dir "solutii/lab4_out" --dl_models_dir "solutii/lab5_out" --outdir "solutii/lab6_out"
 ```
 
-## Descriere scurta pentru fiecare cod (in ordinea platformei)
+## Descriere scurta pentru fiecare cod
 - `solutii/generate_pcap.py`: genereaza scenarii de trafic (`normal`, `http_traffic`, `portscan`, `synflood`) in format PCAP.
 - `solutii/lab2_pcap_processing.py`: citeste PCAP, extrage feature-uri la nivel de pachet/flow si poate exporta CSV.
 - `solutii/lab2b_ids_intro.ipynb`: introducere practica in IDS/Snort (format notebook).
@@ -97,7 +97,3 @@ python solutii/lab6_evaluation.py --data_dir "solutii/lab3_out_train" --ml_model
 - `solutii/lab5_deep_learning.ipynb`: varianta notebook pentru Lab 5.
 - `solutii/lab6_evaluation.py`: incarca modelele din Lab 4/5 si produce comparatie finala (metrici, ROC, FP/FN, matrici de confuzie).
 - `solutii/lab6_evaluation.ipynb`: varianta notebook pentru Lab 6.
-
-## Observatii utile
-- Pentru scripturile care genereaza grafice in terminal/headless, fisierele sunt salvate automat in folderul `--outdir`.
-- Daca nu exista unele fisiere `.npy` sau modele, scripturile Lab 5/6 pot folosi fallback pe date sintetice pentru demo.
